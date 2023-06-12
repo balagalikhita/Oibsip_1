@@ -1,0 +1,10 @@
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(244, 246, 247);
+    }
+    
+}
+.logo{
+    justify-content: center;
+margin:12px 0;
+}

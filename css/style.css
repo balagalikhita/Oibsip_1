@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@300&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+background : var(--main-bg-color);
+font-family: 'Labrada', serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+justify-content: center;
+margin:12px 0;
+}
+.logo img{
+    width:88px;
+    padding:0 25px;
+}
+.slider img{
+    height: 150px;
+width: 150px;
+margin:12px 15px;
+padding: 10px 12px;
+overflow: hidden;
+}
+.carditem img
+{
+    height: 150px;
+width: 150px;
+margin: 12px 15px;
+padding: 10px 12px;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+.name{
+    display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.lines{
+    margin: -21px;
+    padding: 0 79px;
+}
+.lines2{
+    padding: 0 322px;
+margin: -67px;
+}
+.lines3
+{
+    margin: -27px;
+    padding: 0 494px;
+}
+.lines4{
+    padding: 0 720px;
+margin: -69px;
+}
+.lines5{
+    padding: 1px 896px;
+    margin: -5px;
+}
+.lines6{
+    padding: 1px 1188px;
+    margin: -74px;
+}
+.lines7{
+    padding: 1px 1333px;
+margin: -8px;
+}
+.container{
+    max-height: 590px;
+    height:580px;
+    font-family: 'Labrada', serif;
+}
+.search{
+    display: flex;
+align-items: center;
+width:30vh;
+
+}
+.search input{
+    width: 323px;
+    height: 27px;
+    border-radius: 6px;
+        margin: 0  16px 0 56px;
+}
+.card{
+    background-color: aliceblue;
+}
+.card h2{
+    font-family: 'Labrada', serif;
+}
+footer{
+    height:12vh;
+    background-color: var(--main-bg-color);
+    color:white;
+    font-family: 'Labrada', serif;
+}
